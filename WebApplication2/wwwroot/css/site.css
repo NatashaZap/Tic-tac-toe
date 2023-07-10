@@ -1,0 +1,36 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  
+
+}
+
+body {
+    background: #08544C;
+}
+
+table {
+    margin: auto;
+    width: 25vw;
+    height: 25vw;
+    background: #1A8176;
+    color: #D0962A;
+}
+td {
+    border: 3px solid;
+    border-color: #D0962A;
+}
